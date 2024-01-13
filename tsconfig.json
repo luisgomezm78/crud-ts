@@ -1,22 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "build",
+    "allowJs": true,
     "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-  },
-
-  "exclude": [
-    "node_modules", 
-    "**/*.spec.ts", 
-    "out/**"
-  ],
-  "include": ["**/*.ts"],
-  "files": [
-    "build/src/index.js"
-  ]
+  }
   
 }
